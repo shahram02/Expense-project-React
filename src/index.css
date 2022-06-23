@@ -9,11 +9,12 @@
 
 body{
     background-color: #f6f6f6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html{
     font-size: 62.5%;
+    direction: rtl;
 }
 
 :root{
@@ -21,8 +22,11 @@ html{
     --main-gray: #ccc;
     --main-dark: #000;
     --dark-primary: #262626;
-    --white-primary: #efefef;
+    --white-primary: #f6f6f6;
     --main-purple: #6d28d9;
     --main-red: #B91C1C;
-    --secondary-purple: #D8B4FE;
+    --secondary-purple: #E9D5FF;
+    --main-bgc: #334155;
+    --main-color: #0F172A;
+    --main-green: #22C55E;
 }

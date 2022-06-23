@@ -1,0 +1,6 @@
+.container{
+    width: 40rem;
+    background-color: var(--main-bgc);
+    padding: .5rem;
+    color: var(--main-white);
+}
