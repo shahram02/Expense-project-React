@@ -1,0 +1,15 @@
+.App{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.App h1{
+    margin-bottom: 30px;
+    color: var(--dark-primary);
+    font-size: 4rem;
+}
