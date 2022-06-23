@@ -20,6 +20,11 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+.btnRemove{
+    background-color: var(--main-bgc);
+    color: var(--main-red);
+    border: 1px solid var(--main-red);
+}
 
 .containerBox{
     width: 100%;
@@ -30,6 +35,7 @@
     justify-content: space-around;
     padding: 1rem;
     border-radius: 3px;
+    box-shadow: 0 0 2px var(--main-gray);
 }
 
 .box{

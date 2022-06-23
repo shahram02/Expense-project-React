@@ -1,0 +1,46 @@
+.transAction{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: .5rem .8rem;
+    color: var(--secondary-purple);
+
+}
+
+.input{
+    width: 100%  !important;
+    background-color: var(--main-color) !important;
+    padding: 1rem .5rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 5px !important;
+}
+
+.greenRadiu{
+    border-right: 5px solid var(--main-green);
+}
+
+.redRadiu {
+    border-right: 5px solid var(--main-red);
+}
+
+.tagNoting{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--secondary-purple);
+}
+
+
+.startTransAction{
+    text-align: center;
+    margin: .5rem 0;
+    font-size: 1.5rem;
+    color: var(--secondary-purple);
+}
+
+

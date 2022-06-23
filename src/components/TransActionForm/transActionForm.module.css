@@ -1,0 +1,47 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-color);
+    margin-top: .5rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 2px var(--main-gray);
+}
+input[type="text"],
+input[type="number"]{
+    width: 90%;
+    margin:  0 auto;
+    background-color: var(--main-bgc);
+    padding: .5rem;
+    border: none;
+    box-shadow: 0 0 2px var(--main-gray);
+    color: var(--secondary-purple);
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+input::placeholder{
+    color: var(--white-primary);
+}
+
+.boxRadio{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1.4rem;
+    align-items: center;
+    margin:  2rem 0;
+}
+
+.btnAdd {
+    background-color: var(--main-bgc);
+    color: var(--secondary-purple);
+    border: none;
+    cursor: pointer;
+    padding: .6rem .8rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
